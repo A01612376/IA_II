@@ -2,7 +2,7 @@
 Repositorio para el segundo bloque de Inteligencia artificial avanzada para la ciencia de datos
 
 
-El archivo "Flowers_CNN_Josemaría_A01612376" contiene un código para generar un modelo CNN el cual clasifica flores por medio de imágenes. 
+Los archivos "Flowers_CNN_Josemaría_A01612376" contiene un código para generar un modelo CNN el cual clasifica flores por medio de imágenes. 
 
 Las librerías necesarias para el funcionamiento del código son las siguientes:
 
