@@ -1,16 +1,31 @@
 # IA_II
-Repositorio para el segundo bloque de Inteligencia artificial avanzada para la ciencia de datos
+## Repositorio para el segundo bloque de Inteligencia artificial avanzada para la ciencia de datos
 
+### Flowers_CNN_Josemaría_A01612376
+Contiene un **código** para generar un **modelo CNN** el cual clasifica flores por medio de imágenes. 
 
-Los archivos "Flowers_CNN_Josemaría_A01612376" contiene un código para generar un modelo CNN el cual clasifica flores por medio de imágenes. 
+### .py
+**main.py** es un archivo que llama al modelo guardado y al que se le da un archivo o **imagen con formato _.jpg_** para generar una **predicción**. Al correrlo te devolverá un texto diciendo el tipo de flor de la imagen dada.
 
-flowers.model.h5 y flowers.keras son archivos donde están guardados el modelo, son independientes entre ellos y se debe usar únicamente uno dentro del archivo main.py para la ejecución y pruebas del modelo.
+### .model y .keras
+**flowers.model.h5** y **flowers.keras** son **archivos donde están guardados el modelo**, son independientes entre ellos y se debe usar **únicamente uno dentro del archivo main.py** para la ejecución y pruebas del modelo.
 
-Las librerías necesarias para el funcionamiento del código son las siguientes:
+### .jpg
+Los archivos .jpg son para uso experimental del modelo, con éstas se realizan las predicciones dentro de main.py
 
-warnings, numpy, pandas, matplotlib.pyplot, matplotlib, seaborn, sklearn, keras, random, cv2, tqdm, os, PIL.
+### .pdf
+- **"Reporte de Implementación Deep Learning"** es la documentación correspondiente al desarrollo del modelo. 
+- **_"Análisis de seguridad y logs de acceso"_ archivo correspondiente a la documentación del manejo de seguridad del reto del bloque correspondiente, _no está relacionado con el modelo CNN_ y es _evidencia_ de la subcompetencia _SEG0403B_**
 
-
-Los archivos .jpg son para uso experimental, para que con ellas el modelo pueda realizar pruebas de predicción
-
-Dentro del archivo Reporte de Implementación Deep Learning se encuentra la documentación correspondiente a desarrollo del modelo.
+### Librerías necesarias para el código
+- warnings
+- numpy
+- pandas
+- matplotlib.pyplot
+- seaborn
+- sklearn
+- keras
+- random
+- cv2
+- tqdm
+- PIL
