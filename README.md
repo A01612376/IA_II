@@ -14,7 +14,7 @@ Contiene un **código** para generar un **modelo CNN** el cual clasifica flores 
 Los archivos .jpg son para uso experimental del modelo, con éstas se realizan las predicciones dentro de main.py
 
 ### .pdf
-**"Reporte de Implementación Deep Learning"** es la documentación correspondiente al desarrollo del modelo. 
+- **"Reporte de Implementación Deep Learning"** es la documentación correspondiente al desarrollo del modelo. 
 - **_"Análisis de seguridad y logs de acceso"_ archivo correspondiente a la documentación del manejo de seguridad del reto del bloque correspondiente, _no está relacionado con el modelo CNN_ y es _evidencia_ de la subcompetencia _SEG0403B_**
 
 ### Librerías necesarias para el código
